@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/serice-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

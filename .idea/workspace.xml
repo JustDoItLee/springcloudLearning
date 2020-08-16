@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aeb38f2-90f3-415f-9245-ed0061453136" name="Default Changelist" comment="" />
+    <list default="true" id="0aeb38f2-90f3-415f-9245-ed0061453136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/example/serviceribbondemo/ServiceRibbonDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/example/serviceribbondemo/controller/HelloControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/example/serviceribbondemo/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon/src/test/java/com/example/serviceribbondemo/ServiceRibbonDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/example/servicezuuldemo/ServiceZuulDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/example/servicezuuldemo/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul/src/test/java/com/example/servicezuuldemo/ServiceZuulDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +45,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g7qWUH4FcJeqGuRQnNCmJzyy2x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +61,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -38,7 +73,7 @@
       <recent name="com.example.sericefeigndemo.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceHiApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceZuulDemoApplication">
     <configuration name="EurekaServerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.eurekaserverdemo.EurekaServerDemoApplication" />
@@ -62,10 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceRibbonDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.serviceribbondemo.ServiceRibbonDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.servicezuuldemo.ServiceZuulDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerDemoApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
       <item itemvalue="Spring Boot.SericeFeignDemoApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulDemoApplication" />
+      <item itemvalue="Spring Boot.ServiceRibbonDemoApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -78,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597476009098</updated>
-      <workItem from="1597476010724" duration="7443000" />
+      <workItem from="1597476010724" duration="9384000" />
     </task>
     <servers />
   </component>
@@ -94,37 +145,45 @@
       <screen x="78" y="23" width="1714" height="1097" />
     </state>
     <state x="749" y="288" key="#com.intellij.ide.util.MemberChooser/78.23.1714.1097@78.23.1714.1097" timestamp="1597481568753" />
-    <state width="1670" height="444" key="GridCell.Tab.0.bottom" timestamp="1597483555049">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.0.bottom" timestamp="1597559010891">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.0.bottom/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010891" />
     <state width="1670" height="444" key="GridCell.Tab.0.bottom/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555049" />
-    <state width="1670" height="444" key="GridCell.Tab.0.center" timestamp="1597483555048">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.0.center" timestamp="1597559010891">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.0.center/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010891" />
     <state width="1670" height="444" key="GridCell.Tab.0.center/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555048" />
-    <state width="1670" height="444" key="GridCell.Tab.0.left" timestamp="1597483555047">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.0.left" timestamp="1597559010890">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.0.left/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010890" />
     <state width="1670" height="444" key="GridCell.Tab.0.left/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555047" />
-    <state width="1670" height="444" key="GridCell.Tab.0.right" timestamp="1597483555048">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.0.right" timestamp="1597559010891">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.0.right/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010891" />
     <state width="1670" height="444" key="GridCell.Tab.0.right/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555048" />
-    <state width="1670" height="444" key="GridCell.Tab.1.bottom" timestamp="1597483555049">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.1.bottom" timestamp="1597559010892">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.1.bottom/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010892" />
     <state width="1670" height="444" key="GridCell.Tab.1.bottom/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555049" />
-    <state width="1670" height="444" key="GridCell.Tab.1.center" timestamp="1597483555049">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.1.center" timestamp="1597559010891">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.1.center/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010891" />
     <state width="1670" height="444" key="GridCell.Tab.1.center/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555049" />
-    <state width="1670" height="444" key="GridCell.Tab.1.left" timestamp="1597483555049">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.1.left" timestamp="1597559010891">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.1.left/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010891" />
     <state width="1670" height="444" key="GridCell.Tab.1.left/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555049" />
-    <state width="1670" height="444" key="GridCell.Tab.1.right" timestamp="1597483555049">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state width="1670" height="387" key="GridCell.Tab.1.right" timestamp="1597559010892">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state width="1670" height="387" key="GridCell.Tab.1.right/75.23.1717.1097@75.23.1717.1097" timestamp="1597559010892" />
     <state width="1670" height="444" key="GridCell.Tab.1.right/78.23.1714.1097@78.23.1714.1097" timestamp="1597483555049" />
     <state x="474" y="233" key="Maven.ArtifactSearchDialog" timestamp="1597477384152">
       <screen x="78" y="23" width="1714" height="1097" />
@@ -134,17 +193,20 @@
       <screen x="78" y="23" width="1714" height="1097" />
     </state>
     <state width="501" height="445" key="SwitcherDM/78.23.1714.1097@78.23.1714.1097" timestamp="1597479609431" />
-    <state x="517" y="296" width="837" height="550" key="find.popup" timestamp="1597478635135">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state x="515" y="296" width="839" height="550" key="find.popup" timestamp="1597557855969">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state x="515" y="296" width="839" height="550" key="find.popup/75.23.1717.1097@75.23.1717.1097" timestamp="1597557855969" />
     <state x="517" y="296" width="837" height="550" key="find.popup/78.23.1714.1097@78.23.1714.1097" timestamp="1597478635135" />
-    <state x="389" y="248" key="new project wizard" timestamp="1597493400673">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state x="341" y="236" width="1246" height="613" key="new project wizard" timestamp="1597557347257">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state x="341" y="236" width="1246" height="613" key="new project wizard/75.23.1717.1097@75.23.1717.1097" timestamp="1597557347257" />
     <state x="389" y="248" key="new project wizard/78.23.1714.1097@78.23.1714.1097" timestamp="1597493400673" />
-    <state x="601" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1597481662917">
-      <screen x="78" y="23" width="1714" height="1097" />
+    <state x="599" y="268" width="672" height="676" key="search.everywhere.popup" timestamp="1597557359243">
+      <screen x="75" y="23" width="1717" height="1097" />
     </state>
+    <state x="599" y="268" width="672" height="676" key="search.everywhere.popup/75.23.1717.1097@75.23.1717.1097" timestamp="1597557359243" />
     <state x="601" y="268" width="670" height="676" key="search.everywhere.popup/78.23.1714.1097@78.23.1714.1097" timestamp="1597481662917" />
   </component>
 </project>
