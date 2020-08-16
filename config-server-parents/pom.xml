@@ -5,12 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>springcloud-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>config-server-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <name>spring-cloud</name>
-    <description>this is a learning demo</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -20,12 +17,8 @@
     </parent>
 
     <modules>
-        <module>eureka-server</module>
-        <module>service-hi</module>
-        <module>serice-feign</module>
-        <module>service-ribbon</module>
-        <module>service-zuul</module>
-        <module>config-server-parents</module>
+        <module>config-server</module>
+<!--        <module>config-client</module>-->
     </modules>
 
     <properties>
@@ -63,5 +56,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

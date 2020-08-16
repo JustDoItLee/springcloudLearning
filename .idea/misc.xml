@@ -10,7 +10,15 @@
         <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-parents/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-parents/config-client/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
