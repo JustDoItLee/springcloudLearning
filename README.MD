@@ -2,3 +2,5 @@
     feigh 
     restTemplate+ribbon
     Zuul
+    SpringCloud Config
+    SpringCloud Bus
