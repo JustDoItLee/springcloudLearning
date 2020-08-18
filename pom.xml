@@ -26,6 +26,7 @@
         <module>service-ribbon</module>
         <module>service-zuul</module>
         <module>config-server-parents</module>
+        <module>service-hello</module>
     </modules>
 
     <properties>

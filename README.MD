@@ -4,3 +4,4 @@
     Zuul
     SpringCloud Config
     SpringCloud Bus
+    zipkin
