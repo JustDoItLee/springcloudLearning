@@ -1,13 +1,17 @@
 package com.example.eureka.servicehi;
 
 import brave.sampler.Sampler;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,6 +23,9 @@ import java.util.logging.Level;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
+@EnableHystrix
+@EnableHystrixDashboard
+@EnableCircuitBreaker
 public class ServiceHiApplication {
 
     private static final Logger LOG = LoggerFactory.getLogger(ServiceHiApplication.class.getName());
@@ -44,6 +51,17 @@ public class ServiceHiApplication {
         return "i'm service-hi";
 
     }
+
+    @RequestMapping("/home")
+    @HystrixCommand(fallbackMethod = "hiError")
+    public String home(@RequestParam(value = "name", defaultValue = "bilibili") String name) {
+        return "home " + name + " ,i am from port:" + port;
+    }
+
+    public String hiError(String name) {
+        return "home,"+name+",sorry,error!";
+    }
+
 
     @Bean
     public Sampler defaultSampler() {

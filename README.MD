@@ -5,3 +5,4 @@
     SpringCloud Config
     SpringCloud Bus
     zipkin
+    Hystrix Dashboard
