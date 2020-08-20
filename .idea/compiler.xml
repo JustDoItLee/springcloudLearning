@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-turbine" />
         <module name="service-zuul" />
         <module name="config-server" />
         <module name="service-hello" />
@@ -26,6 +27,7 @@
       <module name="service-hello" options="-parameters" />
       <module name="service-hi" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
+      <module name="service-turbine" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
     </option>
   </component>

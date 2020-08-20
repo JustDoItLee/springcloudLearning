@@ -6,3 +6,4 @@
     SpringCloud Bus
     zipkin
     Hystrix Dashboard
+    Hystrix Turbine

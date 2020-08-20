@@ -55,7 +55,7 @@ public class ServiceHiApplication {
     @RequestMapping("/home")
     @HystrixCommand(fallbackMethod = "hiError")
     public String home(@RequestParam(value = "name", defaultValue = "bilibili") String name) {
-        return "home " + name + " ,i am from port:" + port;
+        return "hi home " + name + " ,i am from port:" + port;
     }
 
     public String hiError(String name) {
