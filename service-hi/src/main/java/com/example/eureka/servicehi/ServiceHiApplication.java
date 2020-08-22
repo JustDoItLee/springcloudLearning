@@ -39,6 +39,7 @@ public class ServiceHiApplication {
     String port;
 
     @RequestMapping("/hi")
+    @HystrixCommand(fallbackMethod = "hiError")
     public String callHome() {
         LOG.info("calling trace service-hi  ");
         return restTemplate.getForObject("http://localhost:8763/hello", String.class);

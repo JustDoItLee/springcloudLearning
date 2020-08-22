@@ -7,3 +7,4 @@
     zipkin
     Hystrix Dashboard
     Hystrix Turbine
+    SpringCloud Gateway
