@@ -10,6 +10,7 @@
         <module name="service-zuul" />
         <module name="config-server" />
         <module name="service-hello" />
+        <module name="gateway" />
         <module name="eureka-server" />
         <module name="service-hi" />
         <module name="service-ribbon" />
@@ -23,6 +24,7 @@
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
       <module name="service-hello" options="-parameters" />
       <module name="service-hi" options="-parameters" />
